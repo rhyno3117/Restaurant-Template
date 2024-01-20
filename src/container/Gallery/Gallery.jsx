@@ -5,6 +5,19 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 
+const Gallery = () => {
+  const scrollRef = React.useRef(null);
+
+  const scroll = (direction) => {
+    const { current } = scrollRef;
+
+    if (direction === 'left') {
+      current.scrollLeft -= 300;
+    } else {
+      current.scrollLeft += 300;
+    }
+  };
+
 return (
   <div className="app__gallery flex__center">
     <div className="app__gallery-content">
@@ -29,6 +42,7 @@ return (
     </div>
   </div>
 );
+        }
 
 
 export default Gallery;
