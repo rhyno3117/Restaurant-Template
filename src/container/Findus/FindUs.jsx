@@ -23,4 +23,4 @@ const FindUs = () => (
   </div>
 );
 
-export default FindUs;
+export default FindUs
