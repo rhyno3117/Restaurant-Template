@@ -35,6 +35,12 @@
     margin-bottom: 0.75rem;
 }
 
+.app__footer-name{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 3rem;
+}
+
 
 .app__footer-links_work p:nth-child(2n + 1) {
     margin-bottom: 1rem;

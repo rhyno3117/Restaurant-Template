@@ -18,6 +18,12 @@
     width: 150px;
 }
 
+.app__navbar-name{
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-size: 3rem;
+}
+
 .app__navbar-links {
     flex: 1;
     display: flex;
