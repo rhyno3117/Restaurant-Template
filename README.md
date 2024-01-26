@@ -1,5 +1,5 @@
-## Grandeur Restaurant Website Template
-This project was created with React. This showcases a website for a high end restaurant. This template is crafted for any restaurant aiming to present itself uniquely. This example showcases a fake example website called Grandeur.
+## Restaurant Website Template
+This project was created with React. This showcases a website for a high end restaurant. This template is crafted for any restaurant aiming to present itself uniquely. 
 
 
 ### This project contains:
